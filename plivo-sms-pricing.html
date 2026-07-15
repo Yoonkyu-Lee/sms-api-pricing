@@ -1,0 +1,185 @@
+<!doctype html><html lang=en><head><meta charset="utf-8">
+<title>Plivo SMS API Pricing — Rates by Country &amp; Comparison (2026)</title>
+<meta name="description" content="Plivo outbound SMS API rates across 90 countries vs the cheapest provider. See where Plivo is cheap or expensive.">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231a7f5a'/%3E%3Ctext x='32' y='47' font-size='40' text-anchor='middle' fill='white' font-family='Arial,sans-serif' font-weight='bold'%3E%24%3C/text%3E%3C/svg%3E">
+<meta name="google-site-verification" content="Zi5EoxMOwAl2d_S1SkeGE1H_v9GIUkv2_9CPBtATdvs">
+<link rel="canonical" href="https://yoonkyu-lee.github.io/sms-api-pricing/plivo-sms-pricing.html">
+<style>:root{--bg:#fff;--hero:#f0eee9;--surface:#fff;--border:#eceadf;--head:#163300;--ink:#0e0f0c;--mut:#5a6b52;--brand:#3aa54a;--accent:#9fe870;--accent-ink:#163300;--hl:#dff5cf;--calc:#163300;--calcink:#c8dcb8;--calcbig:#fff;--up:#c0392b;--dn:#2f8f4e;--badgebg:#163300;--badgeink:#9fe870;--tagbg:#dff5cf;--tagink:#2c5320;--radius:14px;--num:inherit;--th:#faf9f5;}
+:root[data-theme="wise-light"]{--bg:#fff;--hero:#f0eee9;--surface:#fff;--border:#eceadf;--head:#163300;--ink:#0e0f0c;--mut:#5a6b52;--brand:#3aa54a;--accent:#9fe870;--accent-ink:#163300;--hl:#dff5cf;--calc:#163300;--calcink:#c8dcb8;--calcbig:#fff;--up:#c0392b;--dn:#2f8f4e;--badgebg:#163300;--badgeink:#9fe870;--tagbg:#dff5cf;--tagink:#2c5320;--radius:14px;--num:inherit;--th:#faf9f5;}
+:root[data-theme="wise-dark"]{--bg:#0f1b0b;--hero:#13230f;--surface:#16260f;--border:#28391f;--head:#dff5cf;--ink:#e4ede0;--mut:#93a888;--brand:#9fe870;--accent:#9fe870;--accent-ink:#0f1b0b;--hl:#22371a;--calc:#9fe870;--calcink:#2c5320;--calcbig:#163300;--up:#ff6b6b;--dn:#5ac47f;--badgebg:#9fe870;--badgeink:#163300;--tagbg:#22371a;--tagink:#bfe8a3;--radius:14px;--num:inherit;--th:#13230f;}
+:root[data-theme="finance"]{--bg:#0e1116;--hero:#12161d;--surface:#12161d;--border:#232a35;--head:#e8edf4;--ink:#c3ccd8;--mut:#8a94a0;--brand:#5aa9ff;--accent:#5aa9ff;--accent-ink:#04122a;--hl:#0f2033;--calc:#0b1a2e;--calcink:#a9c6e8;--calcbig:#eaf3ff;--up:#ff5c5c;--dn:#35d07f;--badgebg:#5aa9ff;--badgeink:#04122a;--tagbg:#12233a;--tagink:#7fb6ff;--radius:6px;--num:Consolas,'SF Mono',monospace;--th:#0e1116;}
+:root[data-theme="nomad"]{--bg:#fdfcfb;--hero:#eaf6ff;--surface:#fff;--border:#ececf2;--head:#0b1f33;--ink:#33404d;--mut:#8a94a0;--brand:#1f8fff;--accent:#1f8fff;--accent-ink:#fff;--hl:#fff4d6;--calc:#1f8fff;--calcink:#d3e9ff;--calcbig:#fff;--up:#e5484d;--dn:#30a46c;--badgebg:#ff5a5f;--badgeink:#fff;--tagbg:#e7f3ff;--tagink:#1663b0;--radius:18px;--num:inherit;--th:#f5faff;}
+:root[data-theme="stripe"]{--bg:#fff;--hero:#f6f9fc;--surface:#fff;--border:#e6e6ef;--head:#0a2540;--ink:#425466;--mut:#8792a2;--brand:#635bff;--accent:#635bff;--accent-ink:#fff;--hl:#f0efff;--calc:#0a2540;--calcink:#a5b7cf;--calcbig:#fff;--up:#df1b41;--dn:#1a7f5a;--badgebg:#635bff;--badgeink:#fff;--tagbg:#f0efff;--tagink:#5a52e0;--radius:10px;--num:inherit;--th:#f6f9fc;}
+
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,sans-serif;
+color:var(--ink);background:var(--bg)}
+a{color:var(--brand);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header.site{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--border)}
+header.site .wrap{display:flex;gap:16px;align-items:center;height:58px}
+.brand{display:flex;align-items:center;gap:8px;font-weight:800;color:var(--head)}
+.brand .b{color:var(--brand)}
+header.site nav{display:flex;gap:15px;font-size:14px;margin-left:auto}
+header.site nav a{color:var(--mut)}
+.tsel{background:var(--surface);color:var(--ink);border:1px solid var(--border);border-radius:20px;
+padding:5px 10px;font:inherit;font-size:12px}
+h1{color:var(--head);font-size:1.95rem;line-height:1.18;margin:.5em 0 .3em;letter-spacing:-.02em;font-weight:800}
+h2{color:var(--head);font-size:1.25rem;margin:1.6em 0 .5em}
+.sub{color:var(--mut);margin:.2em 0 1em}
+.hero{background:var(--hero);border-radius:var(--radius);padding:26px 22px;margin:16px 0}
+.hero h1{margin-top:0}
+.stats{display:inline-flex;gap:22px;flex-wrap:wrap}
+.stats div{display:flex;flex-direction:column}
+.stats b{font-size:1.4rem;color:var(--head);font-variant-numeric:tabular-nums;line-height:1.1}
+.stats span{font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:.04em}
+.layout{display:flex;gap:22px;align-items:flex-start}
+.layout .main{flex:2;min-width:0}
+.layout .rail{flex:1;min-width:0;position:sticky;top:72px;align-self:flex-start;max-height:calc(100vh - 88px);overflow-y:auto}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;margin:14px 0}
+.banner{background:var(--hl);border:1px solid var(--border);color:var(--head);
+padding:10px 14px;border-radius:var(--radius);font-size:13.5px;margin:14px 0}
+.tablewrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{text-align:left;padding:10px 13px;border-bottom:1px solid var(--border)}
+th{color:var(--mut);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.02em;background:var(--th)}
+tbody tr:hover td{background:var(--th)}
+tr.best td{background:var(--hl)}
+td.price{font-variant-numeric:tabular-nums;font-weight:600;white-space:nowrap;font-family:var(--num);color:var(--head)}
+.badge{display:inline-block;font-size:9px;font-weight:700;padding:2px 7px;border-radius:999px;background:var(--badgebg);color:var(--badgeink);margin-left:6px}
+.badge.soft{background:var(--tagbg);color:var(--tagink)}
+.badge.from{background:transparent;border:1px solid var(--accent);color:var(--head)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:8px;margin:12px 0}
+.grid a{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:10px 12px;color:var(--ink);font-size:14px;display:flex;justify-content:space-between;gap:8px}
+.grid a:hover{border-color:var(--accent)}.grid a b{color:var(--brand);font-variant-numeric:tabular-nums}
+.calc{background:var(--calc);border-radius:var(--radius);padding:16px;margin:14px 0;color:var(--calcink)}
+.calc label{font-size:12px;color:var(--calcink);display:block;margin-bottom:4px;opacity:.9}
+.calc input,.calc select{font:inherit;padding:8px 10px;border:1px solid var(--border);border-radius:10px;background:var(--surface);color:var(--ink);width:100%}
+.calc .row{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:12px}.calc .row>div{flex:1;min-width:150px}
+.calc .big{font-size:1.15rem;font-weight:800;color:var(--calcbig);font-family:var(--num)}
+.callout{border-left:4px solid var(--accent);background:var(--hl);padding:10px 14px;border-radius:0 var(--radius) var(--radius) 0;font-size:13.5px;color:var(--head);margin:14px 0}
+/* ===== feed ===== */
+.feed{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden}
+.feed .fh{padding:10px 13px;font-size:12.5px;font-weight:700;color:var(--head);border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center}
+.feed .fh small{font-weight:500;color:var(--mut)}
+.it{border-bottom:1px solid var(--border)}.it:last-child{border-bottom:0}
+.it .frow{display:flex;align-items:center;gap:8px;padding:9px 13px;cursor:pointer;user-select:none;font-size:13px}
+.it .frow:hover{background:var(--th)}
+.it .ic{width:14px;text-align:center;font-weight:700}
+.it .up{color:var(--up)}.it .dn{color:var(--dn)}
+.it .who{font-weight:600;color:var(--ink)}
+.it .delta{font-variant-numeric:tabular-nums;font-weight:600;color:var(--head);font-family:var(--num)}
+.it .pct{font-weight:700}
+.it .tag{font-size:9px;font-weight:700;padding:1px 6px;border-radius:20px;background:var(--tagbg);color:var(--tagink);white-space:nowrap}
+.it .ttl{font-weight:600;color:var(--head)}
+.it .when{margin-left:auto;color:var(--mut);font-size:11px;white-space:nowrap}
+.it .chev{color:var(--mut);transition:transform .18s}
+.it.open .chev{transform:rotate(90deg)}
+.it .detail{max-height:0;overflow:hidden;transition:max-height .22s ease}
+.it.open .detail{max-height:240px}
+.it .dbody{padding:0 13px 11px 13px;font-size:12.5px;color:var(--mut);line-height:1.5}
+.it .dbody a{color:var(--brand)}
+.slot{border:1px dashed var(--border);border-radius:var(--radius);padding:12px;text-align:center;font-size:11.5px;color:var(--mut);margin:12px 0}
+footer.site{border-top:1px solid var(--border);margin-top:44px;color:var(--mut);font-size:13px}
+footer.site .wrap{padding:20px 20px 40px}
+.small{font-size:12.5px;color:var(--mut)}
+@media(max-width:760px){.layout{flex-direction:column}.layout .main,.layout .rail{width:100%}
+.layout .rail{position:static;max-height:none;overflow:visible}}
+</style>
+<script>(function(){var V=['wise-light','wise-dark','finance','nomad','stripe'];try{var t=localStorage.getItem('theme');if(V.indexOf(t)<0){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches?'wise-dark':'wise-light';}document.documentElement.setAttribute('data-theme',t);}catch(e){document.documentElement.setAttribute('data-theme','wise-light');}})();</script>
+</head><body><header class="site"><div class="wrap"><a class="brand" href="index.html"><span class="logo"></span>CPaaS<span class="b">Pricing</span></a><nav><a href="index.html">Cheapest by Country</a><a href="changes.html">Changes</a><a href="calculator.html">Calculator</a><a href="methodology.html">Methodology</a><a href="about.html">About</a></nav><select class="tsel" aria-label="Theme" onchange="setTheme(this.value)"><option value="wise-light">Wise Light</option><option value="wise-dark">Wise Dark</option><option value="finance">Finance</option><option value="nomad">Nomad</option><option value="stripe">Stripe</option></select></div></header><main class="wrap"><h1>Plivo SMS API Pricing (by country)</h1>
+<p class="sub">Plivo’s public outbound SMS rates across 90 countries. Cheapest among compared providers in 12. Updated 2026-07-15.</p>
+<div class="tablewrap"><table><thead><tr><th>Country</th><th>Plivo rate</th><th>Cheapest (provider)</th><th>vs cheapest</th></tr></thead><tbody>
+<tr><td><a href='sms-api-pricing-dz.html'>Algeria</a></td><td class='price'>~$0.2077 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×51.9</td></tr>
+<tr><td><a href='sms-api-pricing-ao.html'>Angola</a></td><td class='price'>~$0.1687 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×42.2</td></tr>
+<tr><td><a href='sms-api-pricing-ar.html'>Argentina</a></td><td class='price'>~$0.0795 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×19.9</td></tr>
+<tr><td><a href='sms-api-pricing-au.html'>Australia</a></td><td class='price'>~$0.0451 <span class="badge">est.</span></td><td>MessageBird $0.01075</td><td>×4.2</td></tr>
+<tr><td><a href='sms-api-pricing-at.html'>Austria</a></td><td class='price'>~$0.0828 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×20.7</td></tr>
+<tr><td><a href='sms-api-pricing-bh.html'>Bahrain</a></td><td class='price'>~$0.0319 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×8.0</td></tr>
+<tr><td><a href='sms-api-pricing-bd.html'>Bangladesh</a></td><td class='price'>~$0.2824 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×70.6</td></tr>
+<tr class="best"><td><a href='sms-api-pricing-be.html'>Belgium</a></td><td class='price'>~$0.0433 <span class="badge">est.</span></td><td>Plivo $0.0433</td><td>cheapest ✓</td></tr>
+<tr><td><a href='sms-api-pricing-bo.html'>Bolivia</a></td><td class='price'>~$0.1916 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×47.9</td></tr>
+<tr><td><a href='sms-api-pricing-br.html'>Brazil</a></td><td class='price'>~$0.0484 <span class="badge">est.</span></td><td>MessageBird $0.00917</td><td>×5.3</td></tr>
+<tr><td><a href='sms-api-pricing-bg.html'>Bulgaria</a></td><td class='price'>~$0.142 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×35.5</td></tr>
+<tr><td><a href='sms-api-pricing-cm.html'>Cameroon</a></td><td class='price'>~$0.2113 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×52.8</td></tr>
+<tr class="best"><td><a href='sms-api-pricing-cl.html'>Chile</a></td><td class='price'>~$0.063 <span class="badge">est.</span></td><td>Plivo $0.063</td><td>cheapest ✓</td></tr>
+<tr><td><a href='sms-api-pricing-co.html'>Colombia</a></td><td class='price'>~$0.0471 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×11.8</td></tr>
+<tr><td><a href='sms-api-pricing-cr.html'>Costa Rica</a></td><td class='price'>~$0.0358 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×8.9</td></tr>
+<tr><td><a href='sms-api-pricing-hr.html'>Croatia</a></td><td class='price'>~$0.0956 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×23.9</td></tr>
+<tr class="best"><td><a href='sms-api-pricing-cz.html'>Czechia</a></td><td class='price'>~$0.0597 <span class="badge">est.</span></td><td>Plivo $0.0597</td><td>cheapest ✓</td></tr>
+<tr><td><a href='sms-api-pricing-ci.html'>Côte d&#x27;Ivoire</a></td><td class='price'>~$0.08 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×20.0</td></tr>
+<tr class="best"><td><a href='sms-api-pricing-do.html'>DO</a></td><td class='price'>~$0.0673 <span class="badge">est.</span></td><td>Plivo $0.0673</td><td>cheapest ✓</td></tr>
+<tr class="best"><td><a href='sms-api-pricing-dk.html'>Denmark</a></td><td class='price'>~$0.0469 <span class="badge">est.</span></td><td>Plivo $0.0469</td><td>cheapest ✓</td></tr>
+<tr><td><a href='sms-api-pricing-ec.html'>Ecuador</a></td><td class='price'>~$0.2516 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×62.9</td></tr>
+<tr><td><a href='sms-api-pricing-eg.html'>Egypt</a></td><td class='price'>~$0.1615 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×40.4</td></tr>
+<tr><td><a href='sms-api-pricing-ee.html'>Estonia</a></td><td class='price'>~$0.0825 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×20.6</td></tr>
+<tr class="best"><td><a href='sms-api-pricing-fi.html'>Finland</a></td><td class='price'>~$0.0724 <span class="badge">est.</span></td><td>Plivo $0.0724</td><td>cheapest ✓</td></tr>
+<tr><td><a href='sms-api-pricing-fr.html'>France</a></td><td class='price'>~$0.0664 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×16.6</td></tr>
+<tr><td><a href='sms-api-pricing-de.html'>Germany</a></td><td class='price'>~$0.095 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×23.8</td></tr>
+<tr><td><a href='sms-api-pricing-gh.html'>Ghana</a></td><td class='price'>~$0.3064 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×76.6</td></tr>
+<tr><td><a href='sms-api-pricing-gr.html'>Greece</a></td><td class='price'>~$0.0585 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×14.6</td></tr>
+<tr><td><a href='sms-api-pricing-gt.html'>Guatemala</a></td><td class='price'>~$0.1019 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×25.5</td></tr>
+<tr><td><a href='sms-api-pricing-hk.html'>Hong Kong</a></td><td class='price'>~$0.0586 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×14.7</td></tr>
+<tr><td><a href='sms-api-pricing-hu.html'>Hungary</a></td><td class='price'>~$0.0703 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×17.6</td></tr>
+<tr><td><a href='sms-api-pricing-in.html'>India</a></td><td class='price'>$0.08 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×20.0</td></tr>
+<tr><td><a href='sms-api-pricing-id.html'>Indonesia</a></td><td class='price'>~$0.3333 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×83.3</td></tr>
+<tr><td><a href='sms-api-pricing-iq.html'>Iraq</a></td><td class='price'>~$0.2857 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×71.4</td></tr>
+<tr><td><a href='sms-api-pricing-ie.html'>Ireland</a></td><td class='price'>~$0.0664 <span class="badge">est.</span></td><td>Telnyx $0.059</td><td>×1.1</td></tr>
+<tr><td><a href='sms-api-pricing-il.html'>Israel</a></td><td class='price'>~$0.1824 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×45.6</td></tr>
+<tr><td><a href='sms-api-pricing-it.html'>Italy</a></td><td class='price'>~$0.086 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×21.5</td></tr>
+<tr><td><a href='sms-api-pricing-jp.html'>Japan</a></td><td class='price'>~$0.0587 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×14.7</td></tr>
+<tr><td><a href='sms-api-pricing-jo.html'>Jordan</a></td><td class='price'>~$0.3235 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×80.9</td></tr>
+<tr><td><a href='sms-api-pricing-ke.html'>Kenya</a></td><td class='price'>~$0.1398 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×35.0</td></tr>
+<tr><td><a href='sms-api-pricing-kw.html'>Kuwait</a></td><td class='price'>~$0.2504 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×62.6</td></tr>
+<tr><td><a href='sms-api-pricing-lv.html'>Latvia</a></td><td class='price'>~$0.0667 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×16.7</td></tr>
+<tr><td><a href='sms-api-pricing-lb.html'>Lebanon</a></td><td class='price'>~$0.3154 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×78.9</td></tr>
+<tr class="best"><td><a href='sms-api-pricing-lt.html'>Lithuania</a></td><td class='price'>~$0.0477 <span class="badge">est.</span></td><td>Plivo $0.0477</td><td>cheapest ✓</td></tr>
+<tr><td><a href='sms-api-pricing-my.html'>Malaysia</a></td><td class='price'>~$0.0316 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×7.9</td></tr>
+<tr><td><a href='sms-api-pricing-mx.html'>Mexico</a></td><td class='price'>~$0.0836 <span class="badge">est.</span></td><td>MessageBird $0.07918</td><td>×1.1</td></tr>
+<tr><td><a href='sms-api-pricing-ma.html'>Morocco</a></td><td class='price'>~$0.1613 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×40.3</td></tr>
+<tr><td><a href='sms-api-pricing-mz.html'>Mozambique</a></td><td class='price'>~$0.1333 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×33.3</td></tr>
+<tr><td><a href='sms-api-pricing-mm.html'>Myanmar</a></td><td class='price'>~$0.1891 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×47.3</td></tr>
+<tr><td><a href='sms-api-pricing-np.html'>Nepal</a></td><td class='price'>~$0.2546 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×63.6</td></tr>
+<tr><td><a href='sms-api-pricing-nl.html'>Netherlands</a></td><td class='price'>~$0.1632 <span class="badge">est.</span></td><td>Twilio $0.1143</td><td>×1.4</td></tr>
+<tr><td><a href='sms-api-pricing-nz.html'>New Zealand</a></td><td class='price'>~$0.098 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×24.5</td></tr>
+<tr><td><a href='sms-api-pricing-ng.html'>Nigeria</a></td><td class='price'>~$0.0236 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×5.9</td></tr>
+<tr><td><a href='sms-api-pricing-no.html'>Norway</a></td><td class='price'>~$0.0584 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×14.6</td></tr>
+<tr><td><a href='sms-api-pricing-om.html'>Oman</a></td><td class='price'>~$0.1378 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×34.5</td></tr>
+<tr><td><a href='sms-api-pricing-pk.html'>Pakistan</a></td><td class='price'>~$0.2574 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×64.4</td></tr>
+<tr><td><a href='sms-api-pricing-py.html'>Paraguay</a></td><td class='price'>~$0.0197 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×4.9</td></tr>
+<tr><td><a href='sms-api-pricing-pe.html'>Peru</a></td><td class='price'>~$0.185 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×46.2</td></tr>
+<tr><td><a href='sms-api-pricing-ph.html'>Philippines</a></td><td class='price'>~$0.1733 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×43.3</td></tr>
+<tr class="best"><td><a href='sms-api-pricing-pl.html'>Poland</a></td><td class='price'>~$0.0285 <span class="badge">est.</span></td><td>Plivo $0.0285</td><td>cheapest ✓</td></tr>
+<tr><td><a href='sms-api-pricing-pt.html'>Portugal</a></td><td class='price'>~$0.046 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×11.5</td></tr>
+<tr><td><a href='sms-api-pricing-qa.html'>Qatar</a></td><td class='price'>~$0.1819 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×45.5</td></tr>
+<tr class="best"><td><a href='sms-api-pricing-ro.html'>Romania</a></td><td class='price'>~$0.0656 <span class="badge">est.</span></td><td>Plivo $0.0656</td><td>cheapest ✓</td></tr>
+<tr><td><a href='sms-api-pricing-ru.html'>Russia</a></td><td class='price'>~$0.3962 <span class="badge">est.</span></td><td>Telnyx $0.1165</td><td>×3.4</td></tr>
+<tr><td><a href='sms-api-pricing-rw.html'>Rwanda</a></td><td class='price'>~$0.2054 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×51.4</td></tr>
+<tr><td><a href='sms-api-pricing-sa.html'>Saudi Arabia</a></td><td class='price'>~$0.1312 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×32.8</td></tr>
+<tr><td><a href='sms-api-pricing-sn.html'>Senegal</a></td><td class='price'>~$0.2917 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×72.9</td></tr>
+<tr><td><a href='sms-api-pricing-rs.html'>Serbia</a></td><td class='price'>~$0.1326 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×33.1</td></tr>
+<tr><td><a href='sms-api-pricing-sg.html'>Singapore</a></td><td class='price'>~$0.0516 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×12.9</td></tr>
+<tr><td><a href='sms-api-pricing-sk.html'>Slovakia</a></td><td class='price'>~$0.0771 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×19.3</td></tr>
+<tr class="best"><td><a href='sms-api-pricing-za.html'>South Africa</a></td><td class='price'>~$0.0156 <span class="badge">est.</span></td><td>Plivo $0.0156</td><td>cheapest ✓</td></tr>
+<tr><td><a href='sms-api-pricing-es.html'>Spain</a></td><td class='price'>~$0.0716 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×17.9</td></tr>
+<tr><td><a href='sms-api-pricing-lk.html'>Sri Lanka</a></td><td class='price'>~$0.2993 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×74.8</td></tr>
+<tr class="best"><td><a href='sms-api-pricing-se.html'>Sweden</a></td><td class='price'>~$0.055 <span class="badge">est.</span></td><td>Plivo $0.055</td><td>cheapest ✓</td></tr>
+<tr><td><a href='sms-api-pricing-ch.html'>Switzerland</a></td><td class='price'>~$0.07 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×17.5</td></tr>
+<tr><td><a href='sms-api-pricing-tw.html'>Taiwan</a></td><td class='price'>~$0.0621 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×15.5</td></tr>
+<tr><td><a href='sms-api-pricing-tz.html'>Tanzania United Republic of</a></td><td class='price'>~$0.1695 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×42.4</td></tr>
+<tr class="best"><td><a href='sms-api-pricing-th.html'>Thailand</a></td><td class='price'>~$0.0271 <span class="badge">est.</span></td><td>Plivo $0.0271</td><td>cheapest ✓</td></tr>
+<tr><td><a href='sms-api-pricing-tn.html'>Tunisia</a></td><td class='price'>~$0.2664 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×66.6</td></tr>
+<tr><td><a href='sms-api-pricing-tr.html'>Turkey</a></td><td class='price'>~$0.0285 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×7.1</td></tr>
+<tr><td><a href='sms-api-pricing-ug.html'>Uganda</a></td><td class='price'>~$0.1595 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×39.9</td></tr>
+<tr><td><a href='sms-api-pricing-ua.html'>Ukraine</a></td><td class='price'>~$0.166 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×41.5</td></tr>
+<tr><td><a href='sms-api-pricing-ae.html'>United Arab Emirates</a></td><td class='price'>~$0.0988 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×24.7</td></tr>
+<tr><td><a href='sms-api-pricing-gb.html'>United Kingdom</a></td><td class='price'>~$0.0372 <span class="badge">est.</span></td><td>MessageBird $0.03569</td><td>×1.0</td></tr>
+<tr><td><a href='sms-api-pricing-us.html'>United States</a></td><td class='price'>$0.0077</td><td>Bandwidth $0.004</td><td>×1.9</td></tr>
+<tr><td><a href='sms-api-pricing-uy.html'>Uruguay</a></td><td class='price'>~$0.0559 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×14.0</td></tr>
+<tr><td><a href='sms-api-pricing-ve.html'>Venezuela</a></td><td class='price'>~$0.1914 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×47.8</td></tr>
+<tr><td><a href='sms-api-pricing-vn.html'>Vietnam</a></td><td class='price'>~$0.0687 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×17.2</td></tr>
+<tr><td><a href='sms-api-pricing-zm.html'>Zambia</a></td><td class='price'>~$0.2349 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×58.7</td></tr>
+<tr><td><a href='sms-api-pricing-zw.html'>Zimbabwe</a></td><td class='price'>~$0.1015 <span class="badge">est.</span></td><td>Telnyx $0.004</td><td>×25.4</td></tr>
+</tbody></table></div>
+<p class="small">‘vs cheapest’ = multiple of the country’s lowest rate. ‘from’ / ‘est.’ badges: see <a href="methodology.html">methodology</a>. Click a country for the full comparison.</p></main><footer class="site"><div class="wrap">Prices are normalized from each provider's <b>public pricing pages</b> (facts only). Collected 2026-07-15. Actual charges vary with carrier fees, registration (10DLC/DLT), rate decks and FX. <b>Verify on each official page before you buy.</b> No affiliation or sponsorship with any provider. <a href="methodology.html">Methodology &amp; limits</a> · <a href="privacy.html">Privacy</a>.</div></footer><script>function setTheme(v){try{localStorage.setItem('theme',v);}catch(e){}document.documentElement.setAttribute('data-theme',v);}(function(){var t=document.documentElement.getAttribute('data-theme');var s=document.querySelector('.tsel');if(s&&t)s.value=t;})();function tRow(el){el.classList.toggle('open');}</script></body></html>
